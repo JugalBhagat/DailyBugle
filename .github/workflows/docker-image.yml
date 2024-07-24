@@ -30,7 +30,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: jugalm17/dailybugle:latest  # Change this to your Docker Hub repository
+          tags: jugalm17/dailybugle:1.1  # Change this to your Docker Hub repository
 
       - name: Image digest
         run: echo ${{ steps.build.outputs.digest }}
